@@ -21,39 +21,41 @@
 
 <body>
     <div class="container">
-        <form class="form js-form">
-            <fieldset class="form__fieldset">
-                <legend class="form__legend">KALKULATOR WALUT</legend>
-                <p>
-                    <label>
-                        <span class="form__labelText">
-                            *Kwota w PLN:
-                        </span>
-                        <input class="form__field js-amount" type="number" name="amount-pln" placeholder="Wpisz kwotę"
-                            required>
+        <div class="element">
+            <form class="form js-form">
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">KALKULATOR WALUT</legend>
+                    <p>
+                        <label>
+                            <span class="form__labelText">
+                                *Kwota w PLN:
+                            </span>
+                            <input class="form__field js-amount" type="number" name="amount-pln"
+                                placeholder="Wpisz kwotę" required>
 
-                    </label>
+                        </label>
 
-                </p>
-                <p>
-                    <label>
-                        <span class="form__labelText">
-                            Wybierz walutę:
-                        </span>
-                        <select class="form__field js-currency" name="currency">
-                            <option value="EUR">EUR
-                            </option>
-                            <option value="CZK">CZK</option>
-                            <option value="USD">USD</option>
-                        </select>
+                    </p>
+                    <p>
+                        <label>
+                            <span class="form__labelText">
+                                Wybierz walutę:
+                            </span>
+                            <select class="form__field js-currency" name="currency">
+                                <option value="EUR">EUR
+                                </option>
+                                <option value="CZK">CZK</option>
+                                <option value="USD">USD</option>
+                            </select>
 
-                    </label>
-                </p>
-            </fieldset>
-            <button class="form__button">Oblicz !</button>
-        </form>
-        <p class="result">WYNIK : <strong class="js-result"></strong>
-        </p>
+                        </label>
+                    </p>
+                </fieldset>
+                <button class="form__button">Oblicz !</button>
+            </form>
+            <p class="result">WYNIK : <strong class="js-result"></strong>
+            </p>
+        </div>
     </div>
 </body>
 

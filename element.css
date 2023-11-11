@@ -1,0 +1,10 @@
+.element {
+    background-image: url("./obrazy/waluta.jpg");
+}
+
+.element {
+    width: 300px;
+    height: 300px;
+    resize: both;
+    overflow: auto;
+}

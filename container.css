@@ -1,12 +1,14 @@
 .container {
     max-width: 750px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 200px 20px;
 }
 
 .body {
-    max-width: 2000px;
+    max-width: auto;
     resize: both;
     overflow: auto;
+    min-height: 100vh;
     background-image: url("./obrazy/waluta.jpg");
+
 }
